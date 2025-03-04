@@ -5,3 +5,9 @@
 ```
 https://alphacephei.com/vosk/models
 ```
+### После установки
+```
+cd Ваши загрузки
+7z x vosk-model-small-en-us-0.15.zip
+mv /путь/к/исходной/папке /путь/к/проекту
+```
