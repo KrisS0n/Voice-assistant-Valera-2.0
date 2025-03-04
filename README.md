@@ -36,10 +36,12 @@ cd Valera-2.0/Database/
 nvim || vim mydatabase.sql
 ```
 ##### Пример как добавить новою команду гитхаб:
+```ruby
 INSERT INTO links (keyword, open_link, search_in_link) VALUES
     ('ютуб', 'https://youtube.com', 'https://youtube.com/results?search_query='),
     ('гугл', 'https://google.com', 'https://google.com/search?q='),
     ('гитхаб', 'https://github.com/', 'https://github.com/search?q=');
+```
 
 После чего сохранить изменения и написать команду
 ```
