@@ -43,7 +43,7 @@ INSERT INTO links (keyword, open_link, search_in_link) VALUES
     ('гитхаб', 'https://github.com/', 'https://github.com/search?q=');
 ```
 
-После чего сохранить изменения и написать команду
+После чего сохранить изменения
 ```
 sqlite3 mydatabase.db < mydatabase.sql
 ```
